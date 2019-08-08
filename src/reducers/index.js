@@ -1,11 +1,8 @@
 import { combineReducers } from 'redux'
 
-import todos from './todos'
-
-import visibilityFilter from './visibilityFilters'
+import toggle from './toggle'
 
 
-export default combineReducers({
-    todos,
-    visibilityFilter
+export default combineReducers({    
+    toggle
 })
